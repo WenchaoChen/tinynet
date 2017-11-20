@@ -11,3 +11,10 @@ use iocp, kqueue,epoll on different platform.
 very basic functions, you can use it to create tcp server or client . ipv4 address only. 
 
 welcome to improve it 
+
+
+# Build Test program.
+
+cmake . 
+
+make 
