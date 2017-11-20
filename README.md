@@ -26,9 +26,9 @@ create a session :
      server.config.threads  = 1;  //set process thread number 
      server.config.backlogs = 10; //tcp backlogs number
      server.addListener("0.0.0.0",  7788); //add a listener on localhost with port 7788 
-    // server.addConnector("127.0.0.1", 7788); // or add a tcp client to server 127.0.0.1:7788    
-    //server.start(); // start it with no event monitor or start with a lambda function to get inner events
+    // server.addConnector("127.0.0.1", 7788); // or add a tcp client to connect to server 127.0.0.1:7788    
     
+    //server.start(); // start it with no event monitor or start with a lambda function to get inner events
     server.start([](NetEvent evt, void * ){
                  switch(evt)
                  {
