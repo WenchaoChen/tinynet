@@ -2,7 +2,7 @@
 a very simple ,cross-platform net library
 
 # Usage
-it's a header only library . just include "tinynet.hpp" to your project. 
+it's a header only library .   just include "tinynet.hpp" to your project. 
 
 support multi-thread process 
 
@@ -16,6 +16,8 @@ create a session :
 
  
     //     sample code :
+    #include "tinynet.hpp" 
+    ......
      class TcpSession : public EventHandler<8192, 8192,char>
      {
      public: 
@@ -56,7 +58,7 @@ cmake . <br>
 make 
 
 # notice 
-it's very alpha version , don't use it on product environment ,especial iocp on windows is delayed 
+it's very alpha version , don't use it on product environment ,especially iocp on windows is delayed 
 
 # contact 
 contact me if you are intresting with this library : fatih#qq.com 
