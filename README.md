@@ -1,5 +1,5 @@
 # tinynet
-a very simple ,cross-platform net library
+a very simple ,cross-platform net library, and has no dependence with other libraries.
 
 # Usage
 it's a header only library .   just include "tinynet.hpp" to your project. 
